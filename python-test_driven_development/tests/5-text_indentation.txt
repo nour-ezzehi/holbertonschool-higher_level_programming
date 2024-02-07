@@ -1,0 +1,33 @@
+===================================
+        Usage of 5-text_indentation.py
+===================================
+
+
+>>> text_indentation = __import__('5-text_indentation').text_indentation
+>>> text_indentation(10)
+Traceback (most recent call last):
+TypeError: text must be a string
+
+>>> text_indentation({})
+Traceback (most recent call last):
+TypeError: text must be a string
+
+>>> text_indentation(())
+Traceback (most recent call last):
+TypeError: text must be a string
+
+>>> text_indentation([])
+Traceback (most recent call last):
+TypeError: text must be a string
+
+>>> text_indentation({'Nour': 10})
+Traceback (most recent call last):
+TypeError: text must be a string
+
+>>> text_indentation((10,))
+Traceback (most recent call last):
+TypeError: text must be a string
+
+>>> text_indentation([[], []])
+Traceback (most recent call last):
+TypeError: text must be a string
